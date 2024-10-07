@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">
+          <p>Anurag's Portfolio</p>
+          <img class="logo" src="./photos/logo-removebg-preview.png" alt="logo">
+        </div>
+        <div class="right">
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="#contacts">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section >
+        <div class="first-section">
+          <div class="left-section">
+            Hi! I am <span class="logo-color">Anurag</span>
+            <div>I am an Enthusiast</div>
+            <div>
+              <span id="element">WebDeveloper</span>
+              <div class="buttons">
+                <a href="#"><button class="btn">Download Resume</button></a>
+                <a href="https://github.com/Anuragsk1203"><button class="btn">Visit GitHub</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="right-section">
+            <img
+              src="./photos/profile-img-removebg-preview.png"
+              alt="An image"
+            />
+          </div>
+        </div>
+
+        <div class="sec-section">
+          <div class="skills">
+            <h2>Skills i have Acquired so far</h2>
+            <div class="skills-img">
+              <p class="C"><img src="./photos/c.png" alt="C"></p>
+              <p class="c"><img src="./photos/C++.png" alt="C++"></p>
+              <p class="pyhton"><img src="./photos/Python.png" alt="Pyhton"></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="third-section">
+          <p class="text-color">What I have done so far!</p>
+          <h1 id="project">Projects</h1>
+
+          <div class="grid-projects">
+            <div class="project-1">
+              <img class="project-img" src="./photos/move-it.png" alt="Move it" />
+              <div class="description">
+                <h2>
+                  <a href="./projects/11.2 Bootstrap Components/moveit.html"
+                  >Move it</a
+                  >
+                </h2>
+                <p>
+                  This site was My first Bootstrap site. This site basically was
+                  built to connect people with the organizations that maintain our
+                  houses or to help moving families out.
+                </p>
+              </div>
+            </div>
+
+            <div class="project-1">
+              <div class="description">
+                <h2>
+                  <a href="./projects/clone of Amazon Homepage/Amazon.html"
+                  >Amazon clone</a
+                  >
+                </h2>
+                <p>
+                  This is Amazon clone using Html and CSS . This project was done to test my Skills and  to learn more about CSS. I am going to make this a large project when i learn  more about JavaScript and Databases.
+                </p>
+              </div>
+              <img class="project-img" src="./photos/Amazon.png" alt="Move it" />
+            </div>
+
+            <div class="project-1">
+            <img class="project-img" src="./photos/Hulu.png" alt="Move it" />
+              <div class="description">
+                <h2>
+                  <a href="./projects/hulu-webpage-clone-main/Hulu.html"
+                  >Hulu Clone</a
+                  >
+                </h2>
+                <p>
+                  This is Hulu clone using Html and CSS. This is my 2nd attempt in cloning sites. This site was a  bit challenging but i was able to complete it. It uses various styles of grid and flexbox combos.
+                </p>
+              </div>
+            </div>
+
+            <div class="project-1">
+              <div class="description">
+                <h2>
+                  <a href="./projects/Crocs clone/Crocs.html"
+                  >Crocs Clone</a
+                  >
+                </h2>
+                <p>
+                  This is Crocs clone using Html and CSS. This is my 3nd attempt in cloning sites. This site was a  bit challenging but i was able to complete it. It uses various styles of grid and flexbox combos. It also used various position attributes and background utilities.
+                </p>
+              </div>
+              <img class="project-img" src="./photos/Crocs.png" alt="Move it" />
+              </div>
+          </div>
+        </div>
+        </div>
+      </section>
+    </main>
+
+    <footer   id="contacts">
+      <div class="footer-contents">
+        <p>&copy; Copyright Ak's Space</p>
+        <div class="contacts">
+          <h3>You can reach me at:</h3>
+          <a href="mailto:anuragkungulwar12@gmail.com">anuragkungulwar12@gmail.com</a>
+        </div>
+        <div class="social">
+          <ul>
+            <li><a href="/"><img src="./svg/linkedin.svg" alt="LinkedIn"></a></li>
+            <li><a href="/"><img src="./svg/instagram.svg" alt="Instagram"></a></li>
+            <li><a href="/"><img src="./svg/github.svg" alt="GitHub"></a></li>
+          </ul>
+        </div>
+    </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer", "Seeker!", "Learner!"],
+        typeSpeed: 70,
+      });
+    </script>
+  </body>
+</html>
